@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 import {login} from '../../redux/auth/auth.actions';
 import {register} from '../../redux/auth/auth.actions';
 
-import {ReactComponent as Logo} from '../../assets/LogoGlyphMd.svg';
+import {ReactComponent as Logo} from '../../assets/Logo.svg';
 import {ReactComponent as ExternalLink} from '../../assets/ExternalLink.svg';
 
 import './AuthForm.styles.scss';
@@ -52,7 +52,7 @@ const AuthForm = ({register, login, action}) => {
     <Fragment>
       <div>
         <div className='icon-holder'>
-          <Logo className='icon' />
+          <Logo className='full-logo' />
         </div>
         <div className='form-container'>
           <form className='login-form' onSubmit={(e) => onSubmit(e)}>
@@ -112,7 +112,7 @@ const AuthForm = ({register, login, action}) => {
             </Link>{' '}
             and{' '}
             <Link
-              to='https://stackoverflow.com/legal/cookie-policy'
+              to='#'
               className='-link'
             >
               cookie policy
@@ -123,12 +123,12 @@ const AuthForm = ({register, login, action}) => {
         <div className='redirects fc-black-500'>
           {action === 'Sign up' ? signUpLink : logInLink}
           <div>
-            Are you an employer?{' '}
+            Are you an inspector?{' '}
             <Link
-              to='https://careers.stackoverflow.com/employer/login'
+              to='#'
               name='talent'
             >
-              Sign up on Talent{' '}
+              Sign up to earn JUTC{' '}
               <ExternalLink/>
             </Link>
           </div>

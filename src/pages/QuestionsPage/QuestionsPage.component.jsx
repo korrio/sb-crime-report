@@ -35,7 +35,7 @@ const QuestionsPage = ({getPosts, post: {posts, loading}}) => {
     <Fragment>
       {searchQuery ? (
         <PageTitle
-          title={`Search Results for ${searchQuery} - CLONE Stack Overflow`}
+          title={`Search Results for ${searchQuery} - CLONE Social Bureau`}
         />
       ) : (
         ''
@@ -47,7 +47,7 @@ const QuestionsPage = ({getPosts, post: {posts, loading}}) => {
           </h3>
           <div className='questions-btn'>
             <LinkButton
-              text={'Ask Question'}
+              text={'Report Crime'}
               link={'/add/question'}
               type={'s-btn__primary'}
             />

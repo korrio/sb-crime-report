@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 import {logout} from '../../redux/auth/auth.actions';
 
 import {ReactComponent as Search} from '../../assets/Search.svg';
-import {ReactComponent as Logo} from '../../assets/LogoMd.svg';
+import {ReactComponent as Logo} from '../../assets/Logo.svg';
 import {ReactComponent as SmallLogo} from '../../assets/LogoGlyphMd.svg';
 import Spinner from '../Spinner/Spinner.component';
 import LinkButton from '../LinkButton/LinkButton.component';
@@ -42,7 +42,10 @@ const Header = ({auth: {isAuthenticated, loading, user}, logout}) => {
   const authTabs = (
     <div className='s-navigation'>
       <Link to='/' className='s-navigation--item is-selected'>
-        Products
+        Home
+      </Link>
+      <Link to='/' className='s-navigation--item is-selected'>
+        JUTC ($0.0004)
       </Link>
     </div>
   );
@@ -53,10 +56,10 @@ const Header = ({auth: {isAuthenticated, loading, user}, logout}) => {
         Products
       </Link>
       <Link to='/' className='s-navigation--item not-selected'>
-        Customers
+        JUTC ($0.0004)
       </Link>
       <Link to='/' className='s-navigation--item not-selected'>
-        Use cases
+        Success cases
       </Link>
     </div>
   );

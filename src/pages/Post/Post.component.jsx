@@ -22,13 +22,13 @@ const Post = ({getPost, post: {post, loading}, match}) => {
     <Spinner type='page' width='75px' height='200px' />
   ) : (
     <Fragment>
-      <PageTitle title={`${post.title} - CLONE Stack Overflow`} />
+      <PageTitle title={`${post.title} - CLONE Social Bureau`} />
       <div id='mainbar' className='post'>
         <div className='question-header fc-black-800 pl24'>
           <h1>{post.title}</h1>
           <div>
             <LinkButton
-              text={'Ask Question'}
+              text={'Report Crime'}
               link={'/add/question'}
               type={'s-btn__primary'}
             />

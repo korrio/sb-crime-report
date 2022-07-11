@@ -12,19 +12,19 @@ const Caption = () => {
   return (
     <Fragment>
       <div className='caption fc-black-600'>
-        <h3>Join the Stack Overflow community</h3>
+        <h3>Join the Social Bureau community</h3>
         <div className='caption-item'>
           <div className='grid-icon'>
             <QuoteLogo/>
           </div>
-          <div className='grid-cell'>Get unstuck — ask a question</div>
+          <div className='grid-cell'>Need help — Report Crime</div>
         </div>
         <div className='caption-item'>
           <div className='grid-icon'>
             <VoteLogo/>
           </div>
           <div className='grid--cell'>
-            Unlock new privileges like voting and commenting
+            Stake JUTC to unlock new privileges like voting and commenting
           </div>
         </div>
         <div className='caption-item'>
@@ -32,22 +32,22 @@ const Caption = () => {
             <TagsLogo/>
           </div>
           <div className='grid-cell'>
-            Save your favorite tags, filters, and jobs
+            Save your favorite tags, filters, and bounty
           </div>
         </div>
         <div className='caption-item'>
           <div className='grid-icon'>
             <TrophyLogo/>
           </div>
-          <div className='grid-cell'>Earn reputation and badges</div>
+          <div className='grid-cell'>Earn reputation and badges NFT</div>
         </div>
         <div className='caption-item fc-black-600'>
           <div>
-            Use the power of Stack Overflow inside your organization.
+            Use the power of Social Bureau inside your organization.
             <br />
             Try a{' '}
             <Link to='https://stackoverflow.com/teams?utm_source=so-owned&utm_medium=product&utm_campaign=public-sign-up&utm_content=teams'>
-              free trial of Stack Overflow for Teams
+              free trial of Social Bureau for Teams
             </Link>
             .
           </div>

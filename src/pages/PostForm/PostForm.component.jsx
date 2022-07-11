@@ -23,7 +23,7 @@ const PostForm = ({auth: {isAuthenticated, loading}}) => {
         <div className='post-form-content'>
           <div className='post-form-header'>
             <div className='post-form-headline fc-black-800'>
-              Ask a public question
+              Report a crime / Add bounties
             </div>
           </div>
           <div className='post-form-section'>

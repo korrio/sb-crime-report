@@ -32,7 +32,7 @@ const TagPage = ({getTag, getTagPosts, tag, post: {posts, loading}, match}) => {
   ) : (
     <Fragment>
       <PageTitle
-        title={`Questions tagged [${tag.tag.tagname}] - CLONE Stack Overflow`}
+        title={`Questions tagged [${tag.tag.tagname}] - CLONE Social Bureau`}
       />
       <div id='mainbar' className='questions-page fc-black-800'>
         <div className='questions-grid'>
@@ -41,7 +41,7 @@ const TagPage = ({getTag, getTagPosts, tag, post: {posts, loading}, match}) => {
           </h3>
           <div className='questions-btn'>
             <LinkButton
-              text={'Ask Question'}
+              text={'Report Crime'}
               link={'/add/question'}
               type={'s-btn__primary'}
             />

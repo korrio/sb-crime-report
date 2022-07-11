@@ -5,11 +5,11 @@ import {ReactComponent as EditLogo} from "../../../../assets/Edit.svg";
 export const SideBarWidgetData = [
   {
     type: 'header',
-    title: 'The Overflow Blog'
+    title: 'The Social Bureau Blog'
   },
   {
     type: 'item',
-    title: 'Celebrating the Stack Exchange sites that turned ten years old in Q1 2022',
+    title: 'Celebrating the Social Bureau sites that turned ten years old in Q1 2022',
     icon: <EditLogo/>,
     link: 'https://stackoverflow.blog/2022/03/16/celebrating-the-stack-exchange-site-that-turned-ten-years-old-in-q1-2022'
   },
@@ -26,25 +26,25 @@ export const SideBarWidgetData = [
   {
     type: 'item',
     title: 'What goes into site sponsorships on SE?',
-    icon: <div className="favicon favicon-stackexchangemeta" title="Meta Stack Exchange"/>,
+    icon: <div className="favicon favicon-stackexchangemeta" title="Meta Social Bureau"/>,
     link: 'https://meta.stackexchange.com/questions/376530/what-goes-into-site-sponsorships-on-se'
   },
   {
     type: 'item',
-    title: 'Stack Exchange Q&amp;A access will not be restricted in Russia',
-    icon: <div className="favicon favicon-stackexchangemeta" title="Meta Stack Exchange"/>,
+    title: 'Social Bureau Q&amp;A access will not be restricted in Russia',
+    icon: <div className="favicon favicon-stackexchangemeta" title="Meta Social Bureau"/>,
     link: 'https://meta.stackexchange.com/questions/376743/stack-exchange-qa-access-will-not-be-restricted-in-russia'
   },
   {
     type: 'item',
     title: 'Announcing an A/B test for a Trending sort option',
-    icon: <div className="favicon favicon-stackoverflowmeta" title="Meta Stack Overflow"/>,
+    icon: <div className="favicon favicon-stackoverflowmeta" title="Meta Social Bureau"/>,
     link: 'https://meta.stackoverflow.com/questions/416486/announcing-an-a-b-test-for-a-trending-sort-option'
   },
   {
     type: 'item',
     title: 'New User Experience: Deep Dive into our Research on the Staging Ground – How...',
-    icon: <div className="favicon favicon-stackoverflowmeta" title="Meta Stack Overflow"/>,
+    icon: <div className="favicon favicon-stackoverflowmeta" title="Meta Social Bureau"/>,
     link: 'https://meta.stackoverflow.com/questions/416652/new-user-experience-deep-dive-into-our-research-on-the-staging-ground-how-do'
   },
   {

@@ -1,3 +1,9 @@
+      .full-logo {
+        min-width: 300px !important;
+        width: 300px;
+        min-height: 100px;
+      }
+
 :root {
     --yellow-200: #675c37;
     --yellow-050: #464236;

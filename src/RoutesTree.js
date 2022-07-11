@@ -18,37 +18,37 @@ import NotFound from './pages/NotFound/NotFound.component';
 const HomePageComponent = withPageTitle({
   component: LayoutWrapper({component: HomePage}),
   title:
-    'CLONE Stack Overflow - Where Developers Learn, Share, & Build Careers',
+    'Social Bureau - Web3 Social Justice by the community',
 });
 
 const QuestionsPageComponent = withPageTitle({
   component: LayoutWrapper({component: QuestionsPage}),
-  title: 'All Questions - CLONE Stack Overflow',
+  title: 'All Questions - Social Bureau',
 });
 
 const AllTagsPageComponent = withPageTitle({
   component: LayoutWrapper({component: AllTagsPage}),
-  title: 'Tags - CLONE Stack Overflow',
+  title: 'Tags - Social Bureau',
 });
 
 const AllUsersPageComponent = withPageTitle({
   component: LayoutWrapper({component: AllUsersPage}),
-  title: 'Users - CLONE Stack Overflow',
+  title: 'Users - CLONE Social Bureau',
 });
 
 const RegisterComponent = withPageTitle({
   component: Register,
-  title: 'Sign Up - CLONE Stack Overflow',
+  title: 'Sign Up - CLONE Social Bureau',
 });
 
 const LoginComponent = withPageTitle({
   component: Login,
-  title: 'Log In - CLONE Stack Overflow',
+  title: 'Log In - CLONE Social Bureau',
 });
 
 const PostFormComponent = withPageTitle({
   component: PostForm,
-  title: 'Ask a Question - CLONE Stack Overflow',
+  title: 'Report Crime - CLONE Social Bureau',
 });
 
 const NotFoundComponent = withPageTitle({
